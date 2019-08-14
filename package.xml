@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Praxigento_JiraFeedback</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/apachepl-1.1.php">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>JIRA Feedback by Praxigento</summary>
+    <description>Allows your customers to create issues in your JIRA bug tracker right from Magento storefront or admin panel.</description>
+    <notes>Initial version</notes>
+    <authors><author><name>Alex Gusev</name><user>praxigento</user><email>info@flancer.lv</email></author></authors>
+    <date>2013-02-28</date>
+    <time>07:40:27</time>
+    <contents><target name="magecommunity"><dir name="Praxigento"><dir name="JiraFeedback"><dir name="Block"><file name="Adminhtml.php" hash="687714a6eda01b5705dabc0ab8398779"/><file name="Frontend.php" hash="427d960fddcb30234fd4706ccdc2adef"/></dir><file name="Config.php" hash="f96b685389063adf8344f65dce1cf76e"/><dir name="Helper"><file name="Data.php" hash="a686a9b4ffa5ce82ed17b2bcc48f30b0"/></dir><dir name="etc"><file name="config.xml" hash="307d296c03d8ceba9356ab6ac4c8f239"/><file name="system.xml" hash="eef300d7851f9ec67e145731377e4041"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="prxgt"><dir name="jfb"><file name="jfb_adminhtml_layout.xml" hash="6782340221a5a365d4706a3dcbd38d26"/></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="prxgt"><dir name="jfb"><file name="jfb_frontend_layout.xml" hash="68419452a763f5fd237638fda8e46e5f"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Praxigento_JiraFeedback.xml" hash="6105441f37b181ff9dce520d1b5fb696"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
