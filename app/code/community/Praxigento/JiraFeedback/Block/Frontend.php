@@ -20,9 +20,7 @@
  */
 /**
  * Created by JetBrains PhpStorm.
- * User: Flancer
- * Date: 13.10.2
- * Time: 12:28
+ * User: Alex Gusev <flancer64@gmail.com>
  */
 class Praxigento_JiraFeedback_Block_Frontend extends Mage_Core_Block_Abstract
 {

@@ -20,9 +20,7 @@
  */
 /**
  * Created by JetBrains PhpStorm.
- * User: Flancer
- * Date: 13.10.2
- * Time: 09:07
+ * User: Alex Gusev <flancer64@gmail.com>
  */
 class Praxigento_JiraFeedback_Config
 {

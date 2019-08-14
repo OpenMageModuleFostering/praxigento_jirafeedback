@@ -23,7 +23,7 @@
 <config>
     <modules>
         <Praxigento_JiraFeedback>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Praxigento_JiraFeedback>
     </modules>
     <adminhtml>
@@ -38,7 +38,7 @@
                                         <!-- Section on the "System/Configuration" panel -->
                                         <prxgt_jfb translate="title" module="prxgt_jfb_helper">
                                             <title>Praxigento: JIRA Feedback Section</title>
-                                            <sort_order>10500</sort_order>
+                                            <sort_order>500</sort_order>
                                         </prxgt_jfb>
                                     </children>
                                 </config>
@@ -55,6 +55,15 @@
                 </prxgt_jfb_admin_layout>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <prxgt_jfb>
+                    <files>
+                        <default>prxgt/jfb/prxgt_jfb.csv</default>
+                    </files>
+                </prxgt_jfb>
+            </modules>
+        </translate>
     </adminhtml>
     <frontend>
         <layout>

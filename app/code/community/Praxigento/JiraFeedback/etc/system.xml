@@ -33,18 +33,18 @@
             <label>JIRA Feedback</label>
             <tab>prxgt</tab>
             <frontend_type>text</frontend_type>
-            <sort_order>10500</sort_order>
+            <sort_order>500</sort_order>
             <show_in_default>1</show_in_default>
-            <show_in_website>0</show_in_website>
-            <show_in_store>0</show_in_store>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
             <groups>
                 <general translate="label" module="prxgt_jfb_helper">
                     <label>General</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
-                    <show_in_website>0</show_in_website>
-                    <show_in_store>0</show_in_store>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
                     <fields>
                         <frontend_enabled translate="label comment">
                             <label>Enable Frontend Feedback</label>
@@ -53,8 +53,8 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <sort_order>200</sort_order>
                             <show_in_default>1</show_in_default>
-                            <show_in_website>0</show_in_website>
-                            <show_in_store>0</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
                         </frontend_enabled>
                         <frontend_feedback_code translate="label comment">
                             <label>Frontend Source Code</label>
@@ -62,8 +62,8 @@
                             <frontend_type>textarea</frontend_type>
                             <sort_order>400</sort_order>
                             <show_in_default>1</show_in_default>
-                            <show_in_website>0</show_in_website>
-                            <show_in_store>0</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
                         </frontend_feedback_code>
                         <adminhtml_enabled translate="label comment">
                             <label>Enable Admin Feedback</label>
@@ -72,8 +72,8 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <sort_order>600</sort_order>
                             <show_in_default>1</show_in_default>
-                            <show_in_website>0</show_in_website>
-                            <show_in_store>0</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
                         </adminhtml_enabled>
                         <adminhtml_feedback_code translate="label comment">
                             <label>Admin Source Code</label>
@@ -81,8 +81,8 @@
                             <frontend_type>textarea</frontend_type>
                             <sort_order>800</sort_order>
                             <show_in_default>1</show_in_default>
-                            <show_in_website>0</show_in_website>
-                            <show_in_store>0</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
                         </adminhtml_feedback_code>
                     </fields>
                 </general>
