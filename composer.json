@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Praxigento_JiraFeedback",
+    "name": "OpenMageModuleFostering\/Praxigento_JiraFeedback",
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
     "description": "JIRA Feedback by Praxigento",
     "authors": [
-    {
-        "name": "Alex Gusev",
-        "email": "info@flancer.lv"
-    }
-],
+        {
+            "name": "Alex Gusev",
+            "email": "info@flancer.lv"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
